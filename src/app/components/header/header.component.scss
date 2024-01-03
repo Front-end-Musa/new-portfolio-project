@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    padding: 16px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .account {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 16px;
+        height: 50px;
+    }
+
+    .pages-links {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        
+        .link {
+            padding: 10px;
+            border-radius: 10px;
+            &:hover {
+                background: #1A1C23;
+                transition: all ease 0.3s;
+            }
+        }
+    }
+}
