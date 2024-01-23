@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './main-page.component.scss'
 })
 export class MainPageComponent {
-
+  scrollTo($element: HTMLElement): void {
+    $element.scrollIntoView({behavior: "smooth"})
+  }
 }
