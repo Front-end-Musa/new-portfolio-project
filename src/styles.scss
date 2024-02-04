@@ -1,7 +1,10 @@
 :root {
     --gray-color: #777777;
     --purple-color: #6D59A8;
-    --darker-purple-color: #604f94;
+    --darker-purple-color: #564785;
+    --telegram-color: #0088cc;
+    --whatsapp-color: #25D366;
+    --github-color: #181717;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
@@ -48,15 +51,6 @@ a {
 
 h1.main-title {
     font-size: 68px;
-}
-
-.github-link {
-    color: var(--purple-color);
-    transition: all ease .2s;
-
-    &:hover {
-        color: #FFF;
-    }
 }
 
 .title {

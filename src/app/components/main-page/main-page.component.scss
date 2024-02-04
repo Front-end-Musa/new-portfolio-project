@@ -1,3 +1,9 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 .main {
     text-align: center;
     padding: 170px;
@@ -30,5 +36,46 @@
 
     h1, h2, h3, h4, h5, h6 {
         font-weight: 500;
+    }
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    .socials {
+        
+        .socials-list {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 50px;
+            
+            .social {
+                font-size: 40px;
+                padding: 10px 20px;
+
+                i {
+                    margin-right: 5px;
+                }
+
+                &.telegram {
+                    background-color: var(--telegram-color);
+                    border-radius: 50px;
+                    i {
+                        color: #fff;
+                    }
+                }
+
+                &.whatsapp {
+                    background-color: var(--whatsapp-color);
+                    border-radius: 50px;
+                    i {
+                        color:  #fff;
+                    }
+                }
+            }
+        }
     }
 }
